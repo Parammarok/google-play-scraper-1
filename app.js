@@ -11,8 +11,8 @@ app.get('/', function(req, res) {
                 
             console.log(gplay.app({appId: id});
             res.send(gplay.app({appId: id}); 
+}
 });
-
 
 app.listen(port, function() {
     console.log('App listening on port ' + port)
